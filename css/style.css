@@ -755,6 +755,21 @@ top: 120px;
     transition-duration: .5s;
   }
 
+  .catalog_botton2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 20px;
+    color: #fdf8f8;
+    font-size: 25px;
+    background-color:  rgb(41, 161, 156);
+    font-family: cursive;
+    text-decoration: none;
+  }
+  
+  .catalog_botton2:hover {
+    font-size: 30px;
+    transition-duration: .5s;
+  }
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
     .black-coffee .container {
