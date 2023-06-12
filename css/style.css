@@ -437,7 +437,7 @@ a {
     z-index: 999;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1900px) {
     .header .toogle-menue {
         position: relative;
         width: 40px;
@@ -517,7 +517,6 @@ a {
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
-
     }
 
     .header .container.active .links {
@@ -573,9 +572,9 @@ a {
     color: var(--sec-color);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 788PX) {
     .header .container .logo {
-        font-size: 15px;
+      display: none;
     }
 
     .header .container .logo img {
@@ -587,17 +586,16 @@ a {
 
 /* Start Landing */
 .landing {
-    height: calc(100vh - var(--header-height));
+    
     background-color: var(--main-color);
     position: relative;
     overflow: hidden;
-    padding-top: 70px   ;
+    padding-top: 70px;
 }
 
 .landing .text {
     width: 50%;
 }
-
 
 .landing .photo {
     position: absolute;
@@ -616,10 +614,10 @@ a {
 
 .slider-container {
     position: relative;
-    width: 100%;
+    width: 70%;
     height: 400px;
     overflow: hidden;
-    margin-left: 50%;
+    margin-left: 48%;
     display: block;
   }
   
@@ -641,7 +639,8 @@ top: 120px;
 
 @media only screen and (max-width: 992px) {
     .slider-container{
-        display: none;
+        width: 50%;
+    height: 400px;
     }
     .landing .photo {
         width: 50%;
@@ -656,6 +655,9 @@ top: 120px;
         text-align: center;
     }
 
+    .slider-container{
+     display: none;
+    }
     .landing .text {
         width: 100%;
         margin-left: auto;
@@ -1275,7 +1277,7 @@ top: 120px;
 }
 
 .branches .content .img.two {
-    background-image: url("../images/اثاث/Picture13.png");
+    background-image: url("../images/اثاث/Picture21.png");
 }
 
 .branches .content .img.three {
